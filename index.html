@@ -8,11 +8,31 @@
 </head>
 <link rel="stylesheet" href="./estilo/base.css">
 <script src="./scripts/scripts.js" defer ></script>
-<body>
-    <header>
-        <span id="textoHeader"></span>
-    </header>
- <button id="btnTeste">Teste</button>
-  
+<body>   
+ <header class="barra">
+    <div class="barra_conteudo">
+        <div class="barra_info">
+            <h1>Cápsula do Tempo - 3G</h1>
+        </div>
+        <div class="barra_cadastro">
+            <a href="cadastro.html"><button class="btn">Cadastro</button></a>
+        </div>     
+        <div class="barra_login">
+            <div class="form_base">
+                <form class="login">
+                    <input type="text" id="usuario" name="usuario" class="login_usuario">
+                    <label for="usuario">Usuário</label>
+                    <input type="password" id="senha" name="senha" class="login_usuario">
+                    <label for="senha">senha</label>
+                    <button type="btn">logar</button>
+                </form>
+            </div>
+            <div class="form_esqueci_senha">
+                <a href="esqueci_senha.html">Esqueci a Senha</a>
+            </div>
+        </div>
+    </div>
+ </header> 
+
 </body>
 </html>
